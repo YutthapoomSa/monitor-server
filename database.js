@@ -5,10 +5,10 @@ let connected = false;
 
 function handleDisconnect() {
     const connection = mysql.createConnection({
-        host: 'localhost',
-        user: 'root',
-        password: '',
-        database: 'ble_tracking'
+        host: '192.168.80.253',
+        user: 'sa',
+        password: 'sa',
+        database: 'hos'
     });
 
     connection.connect((err) => {
